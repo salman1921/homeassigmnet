@@ -193,3 +193,93 @@
 // console.log(arrcolor);
 // arrcolor.splice(0,1)
 // console.log(arrcolor)
+
+
+// 11. Write a program to initialize an array with city names. 
+// Copy 3 array elements from cities array to selectedCities 
+// array.
+
+// var cityarr = ["karachi","Islamabad","Lahore","Quetta","Peshawar"]
+
+// var cityarr1 = ["Karachi","Quetta"]
+// cityarr1.splice("Karachi","Quetta")
+// console.log(cityarr)
+// console.log(cityarr1)
+
+
+// 12. Write a program to create a single string from the 
+// below mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
+
+// var arr = ["This","is","my","cat"];
+// var string = arr.join(' ');
+// console.log(string);
+
+
+
+// 13. Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they 
+// were stored. (FIFO-First In First Out)
+
+
+
+
+// Create a new empty array to implement FIFO
+// var Array = [];
+
+// Add values to the array in  order
+// Array.push("Keyboard");
+// Array.push("Mouse");
+// Array.push("Printer");
+// Array.push("Moniter");
+
+
+// Access and remove values in  order
+
+// var Keyboard = Array.shift();
+// var Mouse = Array.shift();
+// var Printer = Array.shift();
+// var Moniter =  Array.shift();
+
+// Print the values in the order they were stored
+// console.log("Out:", Keyboard); 
+// console.log("Out:", Mouse);
+// console.log("Out:", Printer);
+// console.log("Out:", Moniter);
+
+
+// 14. Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last In First Out)
+
+
+// var Array = [];
+
+
+
+
+// Array.push("Keyboard");
+// Array.push("Mouse");
+// Array.push("Printer");
+// Array.push("Moniter");
+
+
+// var Keyboard = Array.pop();
+// var Mouse = Array.pop();
+// var Printer = Array.pop();
+// var Moniter =  Array.pop();
+
+// console.log("Out:", Keyboard); 
+// console.log("Out:", Mouse);
+// console.log("Out:", Printer);
+// console.log("Out:", Moniter);
+
+
+// 15. Write a program to store phone manufacturers (Apple,
+//     Samsung, Motorola, Nokia, Sony & Haier) in an array. 
+//     Display the following dropdown/select menu in your 
+//     browser using document.write() method:
+
+
+
+
